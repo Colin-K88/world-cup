@@ -1,52 +1,83 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+python3 -m http.server
 
-Welcome USER_NAME,
+# World Cup Quiz
+View the project live []()
+## Overview
+This site is for the ultimate soccer fan, it will have a simple layout asking 5 questions related to the FIFA World Cup. A place where soccer fan can text their knowledge.
+## Table of Contents
+> - [Overview](#overview)
+> - [Description](#description)
+> - [Wireframes](#wireframes)
+> - [Strategy](#strategy)
+> - [ User Stories](#user-stories)
+> - [Structure](#structure)
+> - [Surface](#surface)
+> - [Features](#features)
+> - [Technologies Used](#technologies-used)
+> - [Testing](#testing)
+> - [Credits](#credits)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## Description
+Simple and easy quiz layout for soccer fans. The layout will be clrear clean and responsive to the users answer moving though the questions and providing their final score to see how well they did in the quiz.
 
-## Gitpod Reminders
+![Alt text]()
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Wireframes
+* []()
+* []()
+* []()
+## UX
+### Strategy
+This website is to give a bright colourful and welcoming feel for all users of all demographics. With 5 questions ranging in diffiucty for all users to give them a challenge.
+#### Bussiness Goals
+* To provide a fun interactive quiz for all demographics.
+### User Stories
+#### New Users
+* As a new user, I would like to have a clearly labeled and easily accessible way to to work through the quiz.
+* As a new user, I would like the quiz to give me my final score so I know how well I did.
 
-`python3 -m http.server`
+#### Returning User
+* As a returning user, I would like the site to stay consistent in regards layout. 
+## Structure
+This is a simple single page site designed for an easy smooth experiance. It will have soccer themed images and colours 
+as well as a layout that is easy on the eye for all demographics
+## Surface
+#### Images
+All images on the website were intended to be bright and colorful to make the product look as attractive as possible, also to provide the soccer theme and feel throughout.
+#### Colurs
 
-A blue button should appear to click: _Make Public_,
+#### Typography
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+## Features
+#### Home Page
+* Thiswill be the first page the user sees, it will give a brief description of the quiz and a "Play" button to bring the user to the start of the quiz.
+ 
+ #### Quiz Page
+ * This page will provide the question and answers giving the user 4 answers to choose from and a submit button that will bring them to the next question.
 
-Another blue button should appear to click: _Open Browser_.
+ #### Result Page
+ * When the user submits the final question it will bring them to this page and give them the score from their quiz.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+ 
+ #### Features left to implement
+ 
 
-To log into the Heroku toolbelt CLI you can use:
+## Technologies Used
 
-`heroku login -i`
-
-If you have Multi-Factor Authentication (MFA) enabled then use the API key that was generated for you at [Heroku](https://dashboard.heroku.com/account) as your password.
-This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
----
-
-Happy coding!
+### Lnaguages
+* [HTML](https://en.wikipedia.org/wiki/HTML)
+* [CSS](https://en.wikipedia.org/wiki/CSS)
+### Framworks, Libararies & Tools
+* [GitHub](http://github.com)
+* [Balsamiq](http://balsamiq.com)
+* [Unsplash](https://unsplash.com/)
+* [FontAwesome](https://fontawesome.com/)
+* [GitPod](https://www.gitpod.io/)
+* [Bootstrap](https://getbootstrap.com/)
+* [Pexels](https://pexels.com/) 
+* [Google Fonts](https://fonts.google.com/)
+* [W3schools](https://www.w3schools.com/)
+* [YouTube](https://www.youtube.com/)
+* [AmIResponsive](http://ami.responsivedesign.is/)
