@@ -25,3 +25,22 @@ function loadNextQuestion () {
 		alert('Please select your answer!');
 		return;
 	}
+    let answer = selectedOption.value;
+	if(questions[currentQuestion].answer == answer){
+		score += 10;
+	}
+	selectedOption.checked = false;
+	currentQuestion++;
+	if(currentQuestion == totalQuestion - 1){
+		nextButton.textContent = 'Finish';
+	}
+	if(currentQuestion == totalQuestion){
+		container.style.display = 'none';
+		resultCont.style.display = '';
+		resultCont.textContent = 'Your Score: ' + score;
+		return;
+	}
+	loadQuestion(currentQuestion);
+}
+
+loadQuestion(currentQuestion);
