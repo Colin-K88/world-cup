@@ -1,5 +1,8 @@
 body{
     background-image: url("../images/pexels-digital-buggu-186230.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;  
+	background-size: cover;
 }
 #home{
     text-align: center;
@@ -22,8 +25,6 @@ body{
   cursor: pointer;
 }
 .quiz-container{
-	height: 330px;
-	width: 1000px;
 	position: absolute;
 	top:50%;
 	left:50%;
@@ -45,18 +46,19 @@ body{
 .question{
 	padding: 20px;
 	font-size: 22px;
-	background: #337917;
+	background: white;
 	border-radius: 20px;
 	margin: 10px 0 10px 0;
-	color: #f6f6f6;
+	color: #337917;
+	width: 80%;
 }
 
 .option{
-	width: 470px;
+	width: 80%;
 	display: inline-block;
 	padding: 10px 0 10px 15px;
 	vertical-align: middle;
-	background: rgba(255, 255, 255, 0.5);
+	background: rgba(255, 255, 255, 0.514);
 	margin: 10px 0 10px 10px;
 	color: #000000;
 	border-radius: 20px;
@@ -68,15 +70,14 @@ body{
 }
 
 .submit-btn{
-    color: white;
+    color: #337917;
 	border: none;
 	outline: none;
-	background: #337917;
+	background: white;
 	width: 100px;
 	height: 35px;
 	border-radius: 20px;
 	cursor: pointer;
-	float: right;
 	margin: 10px;
 }
 
@@ -95,3 +96,14 @@ body{
 	background: #337917;
 	color: #000;
 }
+.result{
+	height: 100px;
+	text-align: center;
+	font-size: 75px;
+	padding-top: 200px;
+	color: white;
+}
+.back-btn{
+	color: white;
+}
+
