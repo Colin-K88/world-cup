@@ -1,5 +1,5 @@
 body{
-    background-image: url("../images/pexels-digital-buggu-186230.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/pexels-digital-buggu-186230.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;  
 	background-size: cover;
@@ -7,9 +7,16 @@ body{
 #home{
     text-align: center;
     color: white;
-    padding-top: 80px;
+    padding-top: 40px;
     font-size: 40px;
+	font-family: 'Righteous', cursive;
     
+}
+#home p{
+	text-align: center;
+    color: white;
+    font-size: 50px;
+	font-family: 'Righteous', cursive;
 }
 #home a{
     background-color: white;
@@ -20,7 +27,7 @@ body{
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 22px;
   margin: 4px 2px;
   cursor: pointer;
 }
@@ -103,7 +110,3 @@ body{
 	padding-top: 200px;
 	color: white;
 }
-.back-btn{
-	color: white;
-}
-
