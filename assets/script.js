@@ -1,6 +1,8 @@
-let currentQuestion = 0
-let score = 0
-let totalQuestion = questions.length
+/* Java code used and edited from YouTube viedo to suit simplistic need of website / Find in README*/
+/*jshint esversion: 6 */
+let currentQuestion = 0;
+let score = 0;
+let totalQuestion = questions.length;
 
 const container = document.getElementById('quizContainer');
 const questionEl = document.getElementById('question');
@@ -18,7 +20,7 @@ function loadQuestion (questionIndex) {
 	opt2.textContent = q.option2;
 	opt3.textContent = q.option3;
 	opt4.textContent = q.option4;
-};
+}
 function loadNextQuestion () {
 	let selectedOption = document.querySelector('input[type=radio]:checked');
 	if(!selectedOption){
