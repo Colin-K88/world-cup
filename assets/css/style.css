@@ -1,3 +1,4 @@
+/* Home Page styling*/
 body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/pexels-digital-buggu-186230.jpg");
 	background-repeat: no-repeat;
@@ -31,6 +32,7 @@ body{
   margin: 4px 2px;
   cursor: pointer;
 }
+/* Quiz/Results Page styling*/
 .quiz-container{
 	position: absolute;
 	top:50%;
@@ -41,15 +43,6 @@ body{
 	border: 1px solid #337917;
 	box-shadow: 0 0 8px 3px #fff;
 }
-
-.title{
-	padding-top: 20px;
-	text-align: center;
-	font-size: 36px;
-	text-transform: uppercase;
-	color: #08038C;
-}
-
 .question{
 	padding: 20px;
 	font-size: 22px;
@@ -86,17 +79,12 @@ body{
 	border-radius: 20px;
 	cursor: pointer;
 	margin: 10px;
+	font-size: 20px;
 }
 
 .submit-btn:hover{
 	background: white;
 	color: #337917;
-}
-
-.result{
-	height: 100px;
-	text-align: center;
-	font-size: 75px;
 }
 
 .option input:checked .option{
@@ -106,7 +94,8 @@ body{
 .result{
 	height: 100px;
 	text-align: center;
-	font-size: 75px;
-	padding-top: 200px;
+	font-size: 100px;
+	padding-top: 250px;
 	color: white;
+	font-family: 'Righteous', cursive;
 }
