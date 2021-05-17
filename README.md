@@ -1,6 +1,6 @@
 # World Cup Quiz
 ## Overview
-This site is for the ultimate soccer fan, it will have a simple layout asking 5 questions related to the FIFA World Cup. A place where soccer fan can text their knowledge.
+This site is for the ultimate soccer fan, it will have a simple layout asking 5 questions related to the FIFA World Cup. A place where soccer fan can test their knowledge.
 ## Table of Contents
 > - [Overview](#overview)
 > - [Description](#description)
@@ -15,14 +15,12 @@ This site is for the ultimate soccer fan, it will have a simple layout asking 5 
 > - [Credits](#credits)
 
 ## Description
-Simple and easy quiz layout for soccer fans. The layout will be clrear clean and responsive to the users answer moving though the questions and providing their final score to see how well they did in the quiz.
-
-![Alt text]()
+Simple and easy quiz layout for soccer fans. The layout will be clear clean and responsive to the users, moving through the questions and providing their final score to see how well they did in the quiz.
 
 ## Wireframes
-* [Desktop](/assets/wireframes//Desktop.png)
-* [Ipad](assets/wireframes//ipad.png)
-* [Mobile](assets/wireframes/mobile.png)
+* [Desktop](https://github.com/Colin-K88/world-cup-quiz/blob/master/assets/wireframes/desktop.png)
+* [Ipad](https://github.com/Colin-K88/world-cup-quiz/blob/master/assets/wireframes/Ipad.png)
+* [Mobile](https://github.com/Colin-K88/world-cup-quiz/blob/master/assets/wireframes/mobile.png)
 ## UX
 ### Strategy
 This website is to give a bright colourful and welcoming feel for all users of all demographics. With 5 questions ranging in diffiucty for all users to give them a challenge.
@@ -36,8 +34,8 @@ This website is to give a bright colourful and welcoming feel for all users of a
 #### Returning User
 * As a returning user, I would like the site to stay consistent in regards layout. 
 ## Structure
-This is a simple single page site designed for an easy smooth experiance. It will have soccer themed images and colours 
-as well as a layout that is easy on the eye for all demographics
+This is a simple site designed for an easy smooth experiance. It will have soccer themed images and colours 
+as well as a layout that is easy on the eye and fun for all demographics
 ## Surface
 #### Images
 All images on the website were intended to be bright and colorful to make the product look as attractive as possible, also to provide the soccer theme and feel throughout.
@@ -51,7 +49,7 @@ This website uses Righteous font to give a clean stylish look to main font of th
 * This will be the first page the user sees, it will give a brief description of the quiz and a "Play" button to bring the user to the start of the quiz.
  
  #### Quiz Page
- * This page will provide the question and answers giving the user 4 answers to choose from and a submit button that will bring them to the next question.
+ * This page will provide the question and answers, giving the user 4 answers to choose from and a submit button that will bring them to the next question.
 
  #### Result Page
  * When the user submits the final question it will bring them to this page and give them the score from their quiz.
@@ -72,10 +70,6 @@ This website uses Righteous font to give a clean stylish look to main font of th
 * [YouTube](https://www.youtube.com/)
 
 ## Testing 
-* Contact form was tested, when send button is clicked without all text fields filled in 
-pop up notifaction of "Please fill in this field" shown.
-* All links (external & internal) were checked so user is brought to desired location.
-
 ### Lighthouse Testing 
 * Home Page: Desktop
 ![Alt text](assets/testing-images/HomePage.png)
@@ -115,6 +109,5 @@ pop up notifaction of "Please fill in this field" shown.
 * Background Image: (https://www.pexels.com/photo/green-grass-186230/)
 * Favicon: (https://favicon.io/emoji-favicons/soccer-ball)
 ## Acknowledgments 
-* I recieved inspiration for this project from the Code Institute Love Running exercise.
 * I would like to give a huge thanks to my mentor Nishant Kumar for his guidance and resources.
-* I would like to thank the slack community for sharing their problems and solutions as well as Tutor Support.
+* I would like to thank the slack community for sharing their problems and solutions as well as Tutor Support. 
