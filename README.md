@@ -17,6 +17,8 @@ This site is for the ultimate soccer fan, it will have a simple layout asking 5 
 ## Description
 Simple and easy quiz layout for soccer fans. The layout will be clear clean and responsive to the users, moving through the questions and providing their final score to see how well they did in the quiz.
 
+![Alt text](assets/images/responsive2.png)
+
 ## Wireframes
 * [Desktop](https://github.com/Colin-K88/world-cup-quiz/blob/master/assets/wireframes/desktop.png)
 * [Ipad](https://github.com/Colin-K88/world-cup-quiz/blob/master/assets/wireframes/Ipad.png)
