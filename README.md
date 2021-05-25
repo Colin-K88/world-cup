@@ -67,7 +67,7 @@ This website uses Righteous font to give a clean stylish look to main font of th
 * [Unsplash](https://unsplash.com/)
 * [FontAwesome](https://fontawesome.com/)
 * [GitPod](https://www.gitpod.io/)
-* [Pexels](https://pexels.com/) 
+* [favicon](https://https://favicon.io/) 
 * [Google Fonts](https://fonts.google.com/)
 * [YouTube](https://www.youtube.com/)
 
@@ -85,8 +85,18 @@ This website uses Righteous font to give a clean stylish look to main font of th
 * No issues reported
 ![Alt text](assets/testing-images/Css:validator.png)
 #### Java / [JSHint](https://https://jshint.com/)
-* No issues reported
 ![Alt text](assets/testing-images/Java-testing.png)
+## User Story Testing
+### New Users
+" As a new user, I would like to have a clearly labeled and easily accessible way to to work through the quiz."
+> * The first thing a new user will see is a clean clear layout and a short and simple explanation to the quiz, followed by a 'Play'. Once the quiz starts they will see the same background as the home page for consistency keeping everything clear and easy.
+
+" As a new user, I would like the quiz to give me my final score so I know how well I did."
+> * When the user gets to the final question the submit button changes to a 'finish' button and once clicked the user will be provided with their score.
+
+### Returning Users
+"As a returning user, I would like the site to stay consistent in regards layout."
+> * This is done by making the site respnsive across all screen sizes to avoid any major layout changes.
 ## Deployment 
 * Once my github acoount was set up, I went to the avatar menu at the top right hand side of github and selected
 "your repositories" then clicking the green button "New" to set up a new repository.
